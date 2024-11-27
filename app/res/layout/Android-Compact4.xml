@@ -1,0 +1,110 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_com"
+    android:layout_width="412dp"
+    android:layout_height="920dp"
+    android:clipToOutline="true"
+    android:background="#121212">
+
+    <ImageView
+        android:id="@+id/jp_image"
+        android:layout_width="297dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/jp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/emoji_text"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="155dp"
+        android:text="@string/emoji_text"
+        android:textAppearance="@style/TextAppearance.Emoji"
+        android:gravity="top" />
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="367dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/line_2" />
+
+    <TextView
+        android:id="@+id/zero_text"
+        android:layout_width="24dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="277dp"
+        android:layout_marginTop="438dp"
+        android:text="@string/zero_text"
+        android:textAppearance="@style/TextAppearance.Default"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/korean_text"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="438dp"
+        android:text="@string/korean_text"
+        android:textAppearance="@style/TextAppearance.Default"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="543dp"
+        android:text="@string/price_text"
+        android:textAppearance="@style/TextAppearance.Default"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/won_text"
+        android:layout_width="33dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="314dp"
+        android:layout_marginTop="547dp"
+        android:text="@string/won_text"
+        android:textAppearance="@style/TextAppearance.Default"
+        android:gravity="top" />
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="367dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="726dp"
+        android:background="@drawable/line_3" />
+
+    <TextView
+        android:id="@+id/summary_text"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="779dp"
+        android:text="@string/summary_text"
+        android:textAppearance="@style/TextAppearance.Small"
+        android:gravity="top" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="412dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="809dp"
+        android:background="#4E4D4D" />
+
+    <TextView
+        android:id="@+id/footer_text"
+        android:layout_width="323dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="825dp"
+        android:text="@string/footer_text"
+        android:textAppearance="@style/TextAppearance.Footer"
+        android:gravity="center_horizontal|top" />
+</RelativeLayout>

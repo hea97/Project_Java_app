@@ -16,4 +16,14 @@
         2016년 IMF SDR에 포함되어 글로벌 통화로 인정받음
     </string>
 </resources>
+<resources>
+<string name="app_name">Compact4</string>
+<string name="emoji_text">🇯🇵</string>
+<string name="zero_text">0</string>
+<string name="korean_text">엔</string>
+<string name="price_text">0.00</string>
+<string name="won_text">원</string>
+<string name="summary_text">정보</string>
+<string name="footer_text">1980년대 경제 호황으로 주요 국제 통화로 자리잡음</string>
+</resources>
 
