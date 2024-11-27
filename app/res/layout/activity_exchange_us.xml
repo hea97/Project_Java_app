@@ -1,96 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/android_com"
-    android:layout_width="412dp"
-    android:layout_height="920dp"
-    android:clipToOutline="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#121212">
 
-    <!-- 상단 텍스트 -->
     <TextView
-        android:id="@+id/us_"
+        android:id="@+id/us_title"
         android:layout_width="306dp"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"
-        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="59dp"
-        android:text="@string/us_"
-        android:textAppearance="@style/us_"
+        android:text="오늘의 환율은 정보(US)"
+        android:textAppearance="@style/TextStyleLarge"
         android:gravity="top" />
 
-    <!-- 국가 이모지 -->
     <TextView
-        android:id="@+id/country_emoji"
+        android:id="@+id/us_emoji"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="153dp"
-        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="155dp"
-        android:text="@string/country_emoji"
-        android:textAppearance="@style/EmojiStyle"
-        android:gravity="top" />
+        android:text="🇺🇸"
+        android:textAppearance="@style/TextAppearance.Emoji"
+        android:gravity="center" />
 
-    <!-- 첫 번째 구분선 -->
     <View
-        android:id="@+id/line_2"
+        android:id="@+id/divider_line"
         android:layout_width="367dp"
-        android:layout_height="0dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="23dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="1dp"
+        android:layout_marginStart="23dp"
         android:layout_marginTop="310dp"
-        android:background="@drawable/line_2" />
+        android:background="#FFFFFF" />
 
-    <!-- 텍스트: "달러" -->
+    <LinearLayout
+        android:id="@+id/currency_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currency_value"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.Default" />
+
+        <TextView
+            android:id="@+id/currency_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="달러"
+            android:textAppearance="@style/TextAppearance.Default" />
+    </LinearLayout>
+
     <TextView
-        android:id="@+id/dollar_text"
-        android:layout_width="67dp"
+        android:id="@+id/exchange_rate"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="280dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="438dp"
-        android:text="@string/dollar_text"
-        android:textAppearance="@style/DefaultTextStyle"
-        android:gravity="top" />
+        android:layout_below="@id/currency_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="0.00원"
+        android:textAppearance="@style/TextAppearance.Default" />
 
-    <!-- 금액 텍스트 -->
     <TextView
-        android:id="@+id/price_text"
-        android:layout_width="83dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="220dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="543dp"
-        android:text="@string/price_text"
-        android:textAppearance="@style/DefaultTextStyle"
-        android:gravity="top" />
-
-    <!-- 두 번째 구분선 -->
-    <View
-        android:id="@+id/line_3"
-        android:layout_width="367dp"
-        android:layout_height="0dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="23dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="726dp"
-        android:background="@drawable/line_3" />
-
-    <!-- 하단 텍스트 -->
-    <TextView
-        android:id="@+id/footer_text"
-        android:layout_width="399dp"
-        android:layout_height="20dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="6dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="825dp"
-        android:text="@string/footer_text"
-        android:textAppearance="@style/FooterStyle"
-        android:gravity="center_horizontal|top" />
-
+        android:id="@+id/footer_info"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:background="#4E4D4D"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="브레튼우즈 협정으로 기축통화 지위를 얻어 국제 경제의 중심이 됨"
+        android:textAppearance="@style/TextStyleSmall" />
 </RelativeLayout>

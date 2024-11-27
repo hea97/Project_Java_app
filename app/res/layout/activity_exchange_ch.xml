@@ -1,60 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/android_com"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#121212">
 
-    <!-- 상단 텍스트 -->
     <TextView
         android:id="@+id/ch_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
         android:layout_marginStart="60dp"
+        android:layout_marginTop="59dp"
         android:text="@string/ch_title"
         android:textAppearance="@style/TextStyleLarge" />
 
-    <!-- 이미지 -->
-    <View
+    <ImageView
         android:id="@+id/image_ch"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
-        android:background="@drawable/image_ch" />
+        android:src="@drawable/ch" />
 
-    <!-- 구분선 -->
     <View
         android:id="@+id/line_separator"
-        android:layout_width="90%"
+        android:layout_width="367dp"
         android:layout_height="1dp"
         android:layout_below="@id/image_ch"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="5%"
-        android:layout_marginEnd="5%"
-        android:background="@drawable/line_separator" />
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF" />
 
-    <!-- 환율 정보 -->
     <TextView
-        android:id="@+id/exchange_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/exchange_value"
+        android:layout_width="24dp"
+        android:layout_height="50dp"
         android:layout_below="@id/line_separator"
+        android:layout_marginStart="211dp"
         android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        android:text="@string/exchange_info"
-        android:textAppearance="@style/TextStyleMedium" />
+        android:text="0"
+        android:textAppearance="@style/TextStyleLarge" />
 
-    <!-- 추가 정보 -->
+    <TextView
+        android:id="@+id/exchange_unit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/line_separator"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="20dp"
+        android:text="위안화"
+        android:textAppearance="@style/TextStyleLarge" />
+
     <TextView
         android:id="@+id/imf_sdr_info"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="347dp"
+        android:layout_height="20dp"
         android:layout_alignParentBottom="true"
-        android:layout_margin="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/imf_sdr_info"
         android:textAppearance="@style/TextStyleSmall"
         android:gravity="center" />
-
 </RelativeLayout>
