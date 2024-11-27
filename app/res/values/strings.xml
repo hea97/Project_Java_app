@@ -1,4 +1,5 @@
 <resources>
-    <string name="main_title">오늘의 환율은 얼마일까요?</string>
-    <string name="author">@hea97</string>
+    <string name="today_exchange_rate">오늘의 환율은 얼마일까요?</string>
+    <string name="user_handle">@hea97</string>
+    <string name="dollar_icon_description">달러 아이콘</string>
 </resources>

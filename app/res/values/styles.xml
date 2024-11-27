@@ -1,13 +1,11 @@
 <resources>
-    <style name="MainTitleStyle">
+    <style name="TextStyleLarge">
         <item name="android:textSize">32sp</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:fontFamily">@font/black_han_sans</item>
     </style>
 
-    <style name="AuthorStyle">
+    <style name="TextStyleMedium">
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:fontFamily">@font/black_han_sans</item>
     </style>
 </resources>
