@@ -1,50 +1,71 @@
 <resources>
+    <!-- 앱의 기본 테마 -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:fontFamily">@font/black_han_sans</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 메인 화면 스타일 -->
+    <style name="MainTitleStyle" parent="TextStyleLarge">
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="AuthorStyle" parent="TextStyleSmall">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 환율 정보 스타일 -->
+    <style name="CurrencyTitleStyle" parent="TextStyleLarge">
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="CurrencyValueStyle" parent="TextAppearance.Default">
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="CurrencyUnitStyle" parent="TextAppearance.Default">
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="ExchangeRateStyle" parent="TextAppearance.Default">
+        <item name="android:gravity">top</item>
+    </style>
+
+    <!-- 이모지 스타일 -->
+    <style name="EmojiStyle" parent="TextAppearance.Emoji">
+        <item name="android:fontFamily">@font/alata</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+    <!-- 하단 정보 스타일 -->
+    <style name="InfoButtonStyle" parent="TextStyleMedium">
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="FooterTextStyle" parent="FooterStyle">
+        <item name="android:background">#4E4D4D</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
     <!-- 기본 텍스트 스타일 -->
     <style name="TextStyleLarge">
         <item name="android:textSize">32sp</item>
         <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/black_han_sans</item>
     </style>
 
     <style name="TextStyleMedium">
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/black_han_sans</item>
     </style>
 
     <style name="TextStyleSmall">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#FFFFFF</item>
-    </style>
-
-    <!-- 테마별 텍스트 스타일 -->
-    <style name="TextAppearance.JP">
-        <item name="android:textSize">32sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-    </style>
-
-    <style name="TextAppearance.Emoji">
-        <item name="android:textSize">100sp</item>
-        <item name="android:textColor">#000000</item>
-    </style>
-
-    <style name="TextAppearance.Default">
-        <item name="android:textSize">40sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-    </style>
-
-    <style name="TextAppearance.Small">
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-    </style>
-
-    <!-- 기타 텍스트 스타일 -->
-    <style name="FooterStyle">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:gravity">center_horizontal</item>
-    </style>
-
-    <style name="MessageTextStyle">
-        <item name="android:textSize">40sp</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/black_han_sans</item>
     </style>
 </resources>
