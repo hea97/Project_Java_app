@@ -1,32 +1,23 @@
 <resources>
-    <!-- 일반 정보 -->
-    <string name="app_name">Compact4</string>
-    <string name="message_text">잘못된 페이지입니다</string>
+    <!-- 앱 기본 정보 -->
+    <string name="app_name">ExchangeApp</string>
 
-    <!-- 환율 관련 텍스트 -->
+    <!-- 메인 화면 -->
     <string name="today_exchange_rate">오늘의 환율은 얼마일까요?</string>
     <string name="user_handle">@hea97</string>
-    <string name="dollar_icon_description">달러 아이콘</string>
-    <string name="country_name">아시아</string>
-    <string name="exchange_rate_info">1 USD = 0.00 KRW</string>
-    <string name="summary_info">한 나라의 화폐와 외국 화폐의 교환 비율</string>
 
-    <!-- 국가별 환율 정보 -->
-    <string name="us_">오늘의 환율은 정보(US)</string>
-    <string name="country_emoji">🇺🇸</string>
-    <string name="dollar_text">달러</string>
-    <string name="price_text">0.00</string>
-    <string name="footer_text">브레튼우즈 협정으로 기축통화 지위를 얻어 국제 경제의 중심이 됨</string>
-
+    <!-- 중국 환율 정보 -->
     <string name="ch_title">오늘의 환율은 정보(CH)</string>
-    <string name="exchange_info">1 USD = 0.00 CNY</string>
-    <string name="imf_sdr_info">2016년 IMF SDR에 포함되어 글로벌 통화로 인정받음</string>
+    <string name="ch_info">2016년 IMF SDR에 포함되어 글로벌 통화로 인정받음</string>
 
-    <!-- 통화 및 기호 -->
-    <string name="emoji_text">🇯🇵</string>
-    <string name="zero_text">0</string>
-    <string name="korean_text">엔</string>
-    <string name="won_text">원</string>
-    <string name="summary_text">정보</string>
-    <string name="footer_text">1980년대 경제 호황으로 주요 국제 통화로 자리잡음</string>
+    <!-- 일본 환율 정보 -->
+    <string name="jp_title">오늘의 환율은 정보(JP)</string>
+    <string name="jp_info">1980년대 경제 호황으로 주요 국제 통화로 자리잡음</string>
+
+    <!-- 미국 환율 정보 -->
+    <string name="us_title">오늘의 환율은 정보(US)</string>
+    <string name="us_info">브레튼우즈 협정으로 기축통화 지위를 얻어 국제 경제의 중심이 됨</string>
+
+    <!-- 에러 메시지 -->
+    <string name="error_message">잘못된 페이지입니다</string>
 </resources>

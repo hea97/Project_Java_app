@@ -1,5 +1,5 @@
 <resources>
-    <!-- 앱의 기본 테마 -->
+    <!-- 앱 테마 -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:statusBarColor">#121212</item>
@@ -8,64 +8,36 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <!-- 메인 화면 스타일 -->
+    <!-- 기본 텍스트 스타일 -->
+    <style name="TextStyleBase">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/black_han_sans</item>
+    </style>
+
+    <style name="TextStyleLarge" parent="TextStyleBase">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="TextStyleMedium" parent="TextStyleBase">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextStyleSmall" parent="TextStyleBase">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 화면별 스타일 -->
     <style name="MainTitleStyle" parent="TextStyleLarge">
-        <item name="android:gravity">top</item>
+        <item name="android:gravity">center</item>
     </style>
 
-    <style name="AuthorStyle" parent="TextStyleSmall">
-        <item name="android:textSize">20sp</item>
+    <style name="ExchangeRateStyle" parent="TextStyleLarge">
+        <item name="android:gravity">center</item>
     </style>
 
-    <!-- 환율 정보 스타일 -->
-    <style name="CurrencyTitleStyle" parent="TextStyleLarge">
-        <item name="android:gravity">top</item>
-    </style>
-
-    <style name="CurrencyValueStyle" parent="TextAppearance.Default">
-        <item name="android:gravity">top</item>
-    </style>
-
-    <style name="CurrencyUnitStyle" parent="TextAppearance.Default">
-        <item name="android:gravity">top</item>
-    </style>
-
-    <style name="ExchangeRateStyle" parent="TextAppearance.Default">
-        <item name="android:gravity">top</item>
-    </style>
-
-    <!-- 이모지 스타일 -->
-    <style name="EmojiStyle" parent="TextAppearance.Emoji">
-        <item name="android:fontFamily">@font/alata</item>
-        <item name="android:gravity">top</item>
-    </style>
-
-    <!-- 하단 정보 스타일 -->
-    <style name="InfoButtonStyle" parent="TextStyleMedium">
-        <item name="android:gravity">top</item>
-    </style>
-
-    <style name="FooterTextStyle" parent="FooterStyle">
+    <style name="FooterStyle" parent="TextStyleSmall">
+        <item name="android:gravity">center</item>
         <item name="android:background">#4E4D4D</item>
         <item name="android:padding">16dp</item>
-    </style>
-
-    <!-- 기본 텍스트 스타일 -->
-    <style name="TextStyleLarge">
-        <item name="android:textSize">32sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:fontFamily">@font/black_han_sans</item>
-    </style>
-
-    <style name="TextStyleMedium">
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:fontFamily">@font/black_han_sans</item>
-    </style>
-
-    <style name="TextStyleSmall">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:fontFamily">@font/black_han_sans</item>
     </style>
 </resources>
