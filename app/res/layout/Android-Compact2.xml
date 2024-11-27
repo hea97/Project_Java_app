@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <!-- 상단 이미지 -->
+    <View
+        android:id="@+id/dollar_doll"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/dollar_doll" />
+
+    <!-- 상단 텍스트 -->
+    <TextView
+        android:id="@+id/today_exchange_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/dollar_doll"
+        android:layout_marginTop="40dp"
+        android:text="@string/today_exchange_rate"
+        android:textAppearance="@style/TextStyleLarge"
+        android:gravity="center" />
+
+    <!-- 국가 정보 텍스트 -->
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/today_exchange_rate"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:text="@string/country_name"
+        android:textAppearance="@style/TextStyleMedium" />
+
+    <!-- 구분선 -->
+    <View
+        android:id="@+id/line_separator"
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/country_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line_separator" />
+
+    <!-- 환율 정보 -->
+    <TextView
+        android:id="@+id/exchange_rate_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_separator"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:text="@string/exchange_rate_info"
+        android:textAppearance="@style/TextStyleMedium" />
+
+    <!-- 하단 텍스트 -->
+    <TextView
+        android:id="@+id/summary_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp"
+        android:text="@string/summary_info"
+        android:textAppearance="@style/TextStyleSmall"
+        android:gravity="center" />
+
+</RelativeLayout>

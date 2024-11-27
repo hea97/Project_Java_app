@@ -3,3 +3,9 @@
     <string name="user_handle">@hea97</string>
     <string name="dollar_icon_description">달러 아이콘</string>
 </resources>
+<resources>
+<string name="today_exchange_rate">오늘의 환율은 얼마일까요?</string>
+<string name="country_name">아시아</string>
+<string name="exchange_rate_info">1 USD = 0.00 KRW</string>
+<string name="summary_info">한 나라의 화폐와 외국 화폐의 교환 비율</string>
+</resources>
