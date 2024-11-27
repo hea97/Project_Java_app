@@ -9,3 +9,11 @@
 <string name="exchange_rate_info">1 USD = 0.00 KRW</string>
 <string name="summary_info">한 나라의 화폐와 외국 화폐의 교환 비율</string>
 </resources>
+<resources>
+<string name="ch_title">오늘의 환율은 정보(CH)</string>
+<string name="exchange_info">1 USD = 0.00 CNY</string>
+<string name="imf_sdr_info">
+        2016년 IMF SDR에 포함되어 글로벌 통화로 인정받음
+    </string>
+</resources>
+
