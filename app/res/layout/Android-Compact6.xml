@@ -1,0 +1,22 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_com"
+    android:layout_width="412dp"
+    android:layout_height="920dp"
+    android:clipToOutline="true"
+    android:background="#121212">
+
+    <!-- 중앙 텍스트 -->
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="435dp"
+        android:text="@string/message_text"
+        android:textAppearance="@style/MessageTextStyle"
+        android:gravity="top" />
+
+</RelativeLayout>

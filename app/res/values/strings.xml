@@ -33,4 +33,7 @@
 <string name="price_text">0.00</string>
 <string name="footer_text">브레튼우즈 협정으로 기축통화 지위를 얻어 국제 경제의 중심이 됨</string>
 </resources>
+<resources>
+<string name="message_text">잘못된 페이지입니다</string>
+</resources>
 

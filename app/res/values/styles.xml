@@ -82,3 +82,9 @@
                 <item name="android:gravity">center_horizontal</item>
             </style>
         </resources>
+        <resources>
+            <style name="MessageTextStyle">
+                <item name="android:textSize">40sp</item>
+                <item name="android:textColor">#FFFFFF</item>
+            </style>
+        </resources>
