@@ -1,3 +1,14 @@
 <resources>
+    <!-- 기본 색상 -->
     <color name="background_dark">#121212</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 텍스트 색상 -->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#B3FFFFFF</color>
+
+    <!-- 배경 색상 -->
+    <color name="footerBackground">#4E4D4D</color>
 </resources>
