@@ -4,6 +4,7 @@ plugins {
 
 android {
     compileSdkVersion 34
+
     defaultConfig {
         applicationId "com.example.exchangeapp"
         minSdkVersion 21
