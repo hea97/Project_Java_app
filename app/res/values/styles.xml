@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 앱 기본 테마 -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+
+    <!-- 메인 타이틀 텍스트 스타일 -->
+    <style name="MainTitleStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/black_han_sans</item>
+    </style>
+
+    <!-- 섹션 타이틀 텍스트 스타일 -->
+    <style name="SectionTitleStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/black_han_sans</item>
+    </style>
+
+    <!-- 하단 설명 텍스트 스타일 -->
+    <style name="BottomTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#4E4D4D</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>
