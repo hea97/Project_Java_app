@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_com"
+    android:layout_width="412dp"
+    android:layout_height="920dp"
+    android:clipToOutline="true"
+    android:background="#121212">
+
+    <!-- 상단 텍스트 -->
+    <TextView
+        android:id="@+id/us_"
+        android:layout_width="306dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+        android:text="@string/us_"
+        android:textAppearance="@style/us_"
+        android:gravity="top" />
+
+    <!-- 국가 이모지 -->
+    <TextView
+        android:id="@+id/country_emoji"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="155dp"
+        android:text="@string/country_emoji"
+        android:textAppearance="@style/EmojiStyle"
+        android:gravity="top" />
+
+    <!-- 첫 번째 구분선 -->
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="367dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/line_2" />
+
+    <!-- 텍스트: "달러" -->
+    <TextView
+        android:id="@+id/dollar_text"
+        android:layout_width="67dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="438dp"
+        android:text="@string/dollar_text"
+        android:textAppearance="@style/DefaultTextStyle"
+        android:gravity="top" />
+
+    <!-- 금액 텍스트 -->
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="543dp"
+        android:text="@string/price_text"
+        android:textAppearance="@style/DefaultTextStyle"
+        android:gravity="top" />
+
+    <!-- 두 번째 구분선 -->
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="367dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="726dp"
+        android:background="@drawable/line_3" />
+
+    <!-- 하단 텍스트 -->
+    <TextView
+        android:id="@+id/footer_text"
+        android:layout_width="399dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="825dp"
+        android:text="@string/footer_text"
+        android:textAppearance="@style/FooterStyle"
+        android:gravity="center_horizontal|top" />
+
+</RelativeLayout>

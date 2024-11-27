@@ -26,4 +26,11 @@
 <string name="summary_text">정보</string>
 <string name="footer_text">1980년대 경제 호황으로 주요 국제 통화로 자리잡음</string>
 </resources>
+<resources>
+<string name="us_">오늘의 환율은 정보(US)</string>
+<string name="country_emoji">🇺🇸</string>
+<string name="dollar_text">달러</string>
+<string name="price_text">0.00</string>
+<string name="footer_text">브레튼우즈 협정으로 기축통화 지위를 얻어 국제 경제의 중심이 됨</string>
+</resources>
 
